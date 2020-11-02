@@ -1,0 +1,42 @@
+.product-card{
+  color:black;
+  display:grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap:1em;
+
+  background: white;
+  box-shadow: 0 1px 9px 0px #00000096;
+  padding: 1em;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 500px;
+  transition: all 400ms;
+  cursor:pointer;
+  &:hover{
+    transform:scale(1.05);
+  }
+  img{
+    width:100%;
+    height:auto;
+  }
+  
+  h2{
+    margin-bottom:0.4em;
+    color: #9a50c9;
+  }
+  
+  .stats{
+    color: #646464;
+    display: flex;
+    width:150px;
+    justify-content: space-between;
+    label{
+      font-style: italic;
+    }
+      p{
+        margin:0;
+      }
+  }
+
+  margin-bottom: 1em;
+}
